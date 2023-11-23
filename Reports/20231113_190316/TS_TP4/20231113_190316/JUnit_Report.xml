@@ -1,0 +1,799 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_TP4" time="357.939" tests="8" failures="0" errors="5">
+   <testsuite name="TS_TP4" tests="8" failures="0" errors="5" time="357.939" skipped="0" timestamp="2023-11-13 19:03:37" hostname="Usuario - DESKTOP-213C01S" id="Test Suites/TS_TP4">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Usuario\\Katalon Studio\\My First Web UI Project\\Reports\\20231113_190316\\TS_TP4\\20231113_190316"/>
+         <property name="logFiles" value="C:\\Users\\Usuario\\Katalon Studio\\My First Web UI Project\\Reports\\20231113_190316\\TS_TP4\\20231113_190316\\execution0.log"/>
+         <property name="attachments" value="C:\Users\Usuario\Documents\Facultad\screen1.png, C:\Users\Usuario\Documents\Facultad\screen2A.png, C:\Users\Usuario\Documents\Facultad\screen2B.png"/>
+         <property name="hostName" value="Usuario - DESKTOP-213C01S"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.6.8.208"/>
+         <property name="browser" value="Chrome 119.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.7"/>
+         <property name="sessionId" value="bbdec8ea8deff3774addd41943c2876d"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TYCS/SauceDemo/TC-SD-1-LoginValido" time="37.151" classname="Test Cases/TYCS/SauceDemo/TC-SD-1-LoginValido" status="PASSED">
+         <system-out><![CDATA[2023-11-13 19:03:39 - [TEST_CASE][PASSED] - Test Cases/TYCS/SauceDemo/TC-SD-1-LoginValido: Test Cases/TYCS/SauceDemo/TC-SD-1-LoginValido
+
+2023-11-13 19:03:43 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-11-13 19:03:45 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-11-13 19:03:46 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-11-13 19:03:59 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-11-13 19:03:59 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://www.saucedemo.com/' successfully
+
+2023-11-13 19:04:03 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+2023-11-13 19:04:03 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Swag Labs/input_Swag Labs_user-name"), USUARIO): Text 'standard_user' is set on object 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name'
+
+2023-11-13 19:04:07 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name'
+
+2023-11-13 19:04:07 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Swag Labs/input_Swag Labs_password"), PASSWORD): Text 'secret_sauce' is set on object 'Object Repository/Page_Swag Labs/input_Swag Labs_password'
+
+2023-11-13 19:04:09 - [MESSAGE][PASSED] - Text 'secret_sauce' is set on object 'Object Repository/Page_Swag Labs/input_Swag Labs_password'
+
+2023-11-13 19:04:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/input_Swag Labs_login-button")): Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_login-button' is clicked on
+
+2023-11-13 19:04:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_login-button' is clicked on
+
+2023-11-13 19:04:11 - [TEST_STEP][PASSED] - verifyTextPresent("Products", false, STOP_ON_FAILURE): Text 'Products' is present on page 
+
+2023-11-13 19:04:12 - [MESSAGE][PASSED] - Text 'Products' is present on page 
+
+2023-11-13 19:04:12 - [TEST_STEP][PASSED] - takeScreenshot("C:\Users\Usuario\Documents\Facultad\screen1.png"): Taking screenshot successfully
+
+2023-11-13 19:04:13 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\Users\Usuario\Documents\Facultad\screen1.png]]
+
+2023-11-13 19:04:13 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2023-11-13 19:04:15 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-11-13 19:04:15 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-11-13 19:04:16 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TYCS/SauceDemo/TC-SD-2-A-LoginInvalidoPresionandoEnElBotónLoginConSoloCampoUsuarioCompletado" time="22.891" classname="Test Cases/TYCS/SauceDemo/TC-SD-2-A-LoginInvalidoPresionandoEnElBotónLoginConSoloCampoUsuarioCompletado" status="PASSED">
+         <system-out><![CDATA[2023-11-13 19:04:17 - [TEST_CASE][PASSED] - Test Cases/TYCS/SauceDemo/TC-SD-2-A-LoginInvalidoPresionandoEnElBotónLoginConSoloCampoUsuarioCompletado: Test Cases/TYCS/SauceDemo/TC-SD-2-A-LoginInvalidoPresionandoEnElBotónLoginConSoloCampoUsuarioCompletado
+
+2023-11-13 19:04:19 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-11-13 19:04:19 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-11-13 19:04:19 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-11-13 19:04:27 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-11-13 19:04:27 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://www.saucedemo.com/' successfully
+
+2023-11-13 19:04:31 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+2023-11-13 19:04:31 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Swag Labs/input_Swag Labs_password"), PASSWORD): Text '' is set on object 'Object Repository/Page_Swag Labs/input_Swag Labs_password'
+
+2023-11-13 19:04:34 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_Swag Labs/input_Swag Labs_password'
+
+2023-11-13 19:04:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/input_Swag Labs_login-button"), STOP_ON_FAILURE): Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_login-button' is clicked on
+
+2023-11-13 19:04:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_login-button' is clicked on
+
+2023-11-13 19:04:35 - [TEST_STEP][PASSED] - verifyTextPresent("Epic sadface: Username is required", false): Text 'Epic sadface: Username is required' is present on page 
+
+2023-11-13 19:04:35 - [MESSAGE][PASSED] - Text 'Epic sadface: Username is required' is present on page 
+
+2023-11-13 19:04:35 - [TEST_STEP][PASSED] - takeScreenshot("C:\Users\Usuario\Documents\Facultad\screen2A.png"): Taking screenshot successfully
+
+2023-11-13 19:04:36 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\Users\Usuario\Documents\Facultad\screen2A.png]]
+
+2023-11-13 19:04:36 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2023-11-13 19:04:38 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-11-13 19:04:38 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-11-13 19:04:39 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TYCS/SauceDemo/TC-SD-2-B-LoginInvalidoPresionandoEnElBotónLoginConSoloCampoPasswordCompletado" time="21.395" classname="Test Cases/TYCS/SauceDemo/TC-SD-2-B-LoginInvalidoPresionandoEnElBotónLoginConSoloCampoPasswordCompletado" status="PASSED">
+         <system-out><![CDATA[2023-11-13 19:04:39 - [TEST_CASE][PASSED] - Test Cases/TYCS/SauceDemo/TC-SD-2-B-LoginInvalidoPresionandoEnElBotónLoginConSoloCampoPasswordCompletado: Test Cases/TYCS/SauceDemo/TC-SD-2-B-LoginInvalidoPresionandoEnElBotónLoginConSoloCampoPasswordCompletado
+
+2023-11-13 19:04:41 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-11-13 19:04:41 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-11-13 19:04:41 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-11-13 19:04:49 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-11-13 19:04:49 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://www.saucedemo.com/' successfully
+
+2023-11-13 19:04:51 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+2023-11-13 19:04:51 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Swag Labs/input_Swag Labs_user-name"), USUARIO): Text 'standard_user' is set on object 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name'
+
+2023-11-13 19:04:54 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name'
+
+2023-11-13 19:04:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/input_Swag Labs_login-button"), STOP_ON_FAILURE): Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_login-button' is clicked on
+
+2023-11-13 19:04:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_login-button' is clicked on
+
+2023-11-13 19:04:55 - [TEST_STEP][PASSED] - verifyTextPresent("Epic sadface: Password is required", false): Text 'Epic sadface: Password is required' is present on page 
+
+2023-11-13 19:04:56 - [MESSAGE][PASSED] - Text 'Epic sadface: Password is required' is present on page 
+
+2023-11-13 19:04:56 - [TEST_STEP][PASSED] - takeScreenshot("C:\Users\Usuario\Documents\Facultad\screen2B.png"): Taking screenshot successfully
+
+2023-11-13 19:04:57 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\Users\Usuario\Documents\Facultad\screen2B.png]]
+
+2023-11-13 19:04:57 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2023-11-13 19:04:59 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-11-13 19:04:59 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-11-13 19:05:01 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TYCS/SauceDemo/TC-SD-3-LoginInvalido" time="12.606" classname="Test Cases/TYCS/SauceDemo/TC-SD-3-LoginInvalido" status="ERROR">
+         <error type="ERROR" message="Test Cases/TYCS/SauceDemo/TC-SD-3-LoginInvalido FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: USUARIO for class: Script1699908208773
+	at TC-SD-3-LoginInvalido.run(TC-SD-3-LoginInvalido:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1699912996986.run(TempTestSuite1699912996986.groovy:36)
+"/>
+         <system-out><![CDATA[2023-11-13 19:05:41 - [TEST_CASE][ERROR] - Test Cases/TYCS/SauceDemo/TC-SD-3-LoginInvalido: Test Cases/TYCS/SauceDemo/TC-SD-3-LoginInvalido FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: USUARIO for class: Script1699908208773
+	at TC-SD-3-LoginInvalido.run(TC-SD-3-LoginInvalido:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1699912996986.run(TempTestSuite1699912996986.groovy:36)
+
+
+2023-11-13 19:05:42 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-11-13 19:05:42 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-11-13 19:05:43 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-11-13 19:05:43 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-11-13 19:05:50 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-11-13 19:05:50 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://www.saucedemo.com/' successfully
+
+2023-11-13 19:05:52 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+2023-11-13 19:05:52 - [TEST_STEP][ERROR] - setText(findTestObject("Object Repository/Page_Swag Labs/input_Swag Labs_user-name"), USUARIO): Test Cases/TYCS/SauceDemo/TC-SD-3-LoginInvalido FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: USUARIO for class: Script1699908208773
+	at TC-SD-3-LoginInvalido.run(TC-SD-3-LoginInvalido:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1699912996986.run(TempTestSuite1699912996986.groovy:36)
+
+
+2023-11-13 19:05:53 - [MESSAGE][ERROR] - Test Cases/TYCS/SauceDemo/TC-SD-3-LoginInvalido FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: USUARIO for class: Script1699908208773
+	at TC-SD-3-LoginInvalido.run(TC-SD-3-LoginInvalido:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1699912996986.run(TempTestSuite1699912996986.groovy:36)]]></system-out>
+         <system-err><![CDATA[2023-11-13 19:05:41 - [TEST_CASE][ERROR] - Test Cases/TYCS/SauceDemo/TC-SD-3-LoginInvalido: Test Cases/TYCS/SauceDemo/TC-SD-3-LoginInvalido FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: USUARIO for class: Script1699908208773
+	at TC-SD-3-LoginInvalido.run(TC-SD-3-LoginInvalido:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1699912996986.run(TempTestSuite1699912996986.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TYCS/SauceDemo/TC-SD-3-LoginInvalido" time="14.091" classname="Test Cases/TYCS/SauceDemo/TC-SD-3-LoginInvalido" status="ERROR">
+         <error type="ERROR" message="Test Cases/TYCS/SauceDemo/TC-SD-3-LoginInvalido FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: keys for class: Script1699908208773
+	at TC-SD-3-LoginInvalido.run(TC-SD-3-LoginInvalido:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1699912996986.run(TempTestSuite1699912996986.groovy:36)
+"/>
+         <system-out><![CDATA[2023-11-13 19:06:36 - [TEST_CASE][ERROR] - Test Cases/TYCS/SauceDemo/TC-SD-3-LoginInvalido: Test Cases/TYCS/SauceDemo/TC-SD-3-LoginInvalido FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: keys for class: Script1699908208773
+	at TC-SD-3-LoginInvalido.run(TC-SD-3-LoginInvalido:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1699912996986.run(TempTestSuite1699912996986.groovy:36)
+
+
+2023-11-13 19:06:36 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-11-13 19:06:36 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-11-13 19:06:39 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-11-13 19:06:39 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-11-13 19:06:45 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-11-13 19:06:45 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://www.saucedemo.com/' successfully
+
+2023-11-13 19:06:47 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+2023-11-13 19:06:47 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Swag Labs/input_Swag Labs_user-name"), USUARIO): Text 'prueba' is set on object 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name'
+
+2023-11-13 19:06:50 - [MESSAGE][PASSED] - Text 'prueba' is set on object 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name'
+
+2023-11-13 19:06:50 - [TEST_STEP][ERROR] - sendKeys("Object Repository/Page_Swag Labs/input_Swag Labs_user-name", Keys.chord(BACK_SPACE)): Test Cases/TYCS/SauceDemo/TC-SD-3-LoginInvalido FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: keys for class: Script1699908208773
+	at TC-SD-3-LoginInvalido.run(TC-SD-3-LoginInvalido:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1699912996986.run(TempTestSuite1699912996986.groovy:36)
+
+
+2023-11-13 19:06:50 - [MESSAGE][ERROR] - Test Cases/TYCS/SauceDemo/TC-SD-3-LoginInvalido FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: keys for class: Script1699908208773
+	at TC-SD-3-LoginInvalido.run(TC-SD-3-LoginInvalido:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1699912996986.run(TempTestSuite1699912996986.groovy:36)]]></system-out>
+         <system-err><![CDATA[2023-11-13 19:06:36 - [TEST_CASE][ERROR] - Test Cases/TYCS/SauceDemo/TC-SD-3-LoginInvalido: Test Cases/TYCS/SauceDemo/TC-SD-3-LoginInvalido FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: keys for class: Script1699908208773
+	at TC-SD-3-LoginInvalido.run(TC-SD-3-LoginInvalido:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1699912996986.run(TempTestSuite1699912996986.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TYCS/SauceDemo/TC-SD-3-LoginInvalido" time="11.946" classname="Test Cases/TYCS/SauceDemo/TC-SD-3-LoginInvalido" status="ERROR">
+         <error type="ERROR" message="Test Cases/TYCS/SauceDemo/TC-SD-3-LoginInvalido FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: USUARIO for class: Script1699908208773
+	at TC-SD-3-LoginInvalido.run(TC-SD-3-LoginInvalido:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1699912996986.run(TempTestSuite1699912996986.groovy:36)
+"/>
+         <system-out><![CDATA[2023-11-13 19:07:28 - [TEST_CASE][ERROR] - Test Cases/TYCS/SauceDemo/TC-SD-3-LoginInvalido: Test Cases/TYCS/SauceDemo/TC-SD-3-LoginInvalido FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: USUARIO for class: Script1699908208773
+	at TC-SD-3-LoginInvalido.run(TC-SD-3-LoginInvalido:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1699912996986.run(TempTestSuite1699912996986.groovy:36)
+
+
+2023-11-13 19:07:29 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-11-13 19:07:29 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-11-13 19:07:30 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-11-13 19:07:30 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-11-13 19:07:37 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-11-13 19:07:37 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://www.saucedemo.com/' successfully
+
+2023-11-13 19:07:39 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+2023-11-13 19:07:39 - [TEST_STEP][ERROR] - setText(findTestObject("Object Repository/Page_Swag Labs/input_Swag Labs_user-name"), USUARIO): Test Cases/TYCS/SauceDemo/TC-SD-3-LoginInvalido FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: USUARIO for class: Script1699908208773
+	at TC-SD-3-LoginInvalido.run(TC-SD-3-LoginInvalido:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1699912996986.run(TempTestSuite1699912996986.groovy:36)
+
+
+2023-11-13 19:07:40 - [MESSAGE][ERROR] - Test Cases/TYCS/SauceDemo/TC-SD-3-LoginInvalido FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: USUARIO for class: Script1699908208773
+	at TC-SD-3-LoginInvalido.run(TC-SD-3-LoginInvalido:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1699912996986.run(TempTestSuite1699912996986.groovy:36)]]></system-out>
+         <system-err><![CDATA[2023-11-13 19:07:28 - [TEST_CASE][ERROR] - Test Cases/TYCS/SauceDemo/TC-SD-3-LoginInvalido: Test Cases/TYCS/SauceDemo/TC-SD-3-LoginInvalido FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: USUARIO for class: Script1699908208773
+	at TC-SD-3-LoginInvalido.run(TC-SD-3-LoginInvalido:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1699912996986.run(TempTestSuite1699912996986.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TYCS/SauceDemo/TC-SD-3-LoginInvalido" time="14.353" classname="Test Cases/TYCS/SauceDemo/TC-SD-3-LoginInvalido" status="ERROR">
+         <error type="ERROR" message="Test Cases/TYCS/SauceDemo/TC-SD-3-LoginInvalido FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: keys for class: Script1699908208773
+	at TC-SD-3-LoginInvalido.run(TC-SD-3-LoginInvalido:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1699912996986.run(TempTestSuite1699912996986.groovy:36)
+"/>
+         <system-out><![CDATA[2023-11-13 19:08:21 - [TEST_CASE][ERROR] - Test Cases/TYCS/SauceDemo/TC-SD-3-LoginInvalido: Test Cases/TYCS/SauceDemo/TC-SD-3-LoginInvalido FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: keys for class: Script1699908208773
+	at TC-SD-3-LoginInvalido.run(TC-SD-3-LoginInvalido:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1699912996986.run(TempTestSuite1699912996986.groovy:36)
+
+
+2023-11-13 19:08:21 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-11-13 19:08:21 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-11-13 19:08:23 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-11-13 19:08:23 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-11-13 19:08:29 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-11-13 19:08:29 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://www.saucedemo.com/' successfully
+
+2023-11-13 19:08:32 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+2023-11-13 19:08:32 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Swag Labs/input_Swag Labs_user-name"), USUARIO): Text 'standard_user' is set on object 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name'
+
+2023-11-13 19:08:36 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name'
+
+2023-11-13 19:08:36 - [TEST_STEP][ERROR] - sendKeys("Object Repository/Page_Swag Labs/input_Swag Labs_user-name", Keys.chord(BACK_SPACE)): Test Cases/TYCS/SauceDemo/TC-SD-3-LoginInvalido FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: keys for class: Script1699908208773
+	at TC-SD-3-LoginInvalido.run(TC-SD-3-LoginInvalido:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1699912996986.run(TempTestSuite1699912996986.groovy:36)
+
+
+2023-11-13 19:08:36 - [MESSAGE][ERROR] - Test Cases/TYCS/SauceDemo/TC-SD-3-LoginInvalido FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: keys for class: Script1699908208773
+	at TC-SD-3-LoginInvalido.run(TC-SD-3-LoginInvalido:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1699912996986.run(TempTestSuite1699912996986.groovy:36)]]></system-out>
+         <system-err><![CDATA[2023-11-13 19:08:21 - [TEST_CASE][ERROR] - Test Cases/TYCS/SauceDemo/TC-SD-3-LoginInvalido: Test Cases/TYCS/SauceDemo/TC-SD-3-LoginInvalido FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: keys for class: Script1699908208773
+	at TC-SD-3-LoginInvalido.run(TC-SD-3-LoginInvalido:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1699912996986.run(TempTestSuite1699912996986.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TYCS/SauceDemo/TC-SD-3-LoginInvalido" time="16.332" classname="Test Cases/TYCS/SauceDemo/TC-SD-3-LoginInvalido" status="ERROR">
+         <error type="ERROR" message="Test Cases/TYCS/SauceDemo/TC-SD-3-LoginInvalido FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: keys for class: Script1699908208773
+	at TC-SD-3-LoginInvalido.run(TC-SD-3-LoginInvalido:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1699912996986.run(TempTestSuite1699912996986.groovy:36)
+"/>
+         <system-out><![CDATA[2023-11-13 19:09:19 - [TEST_CASE][ERROR] - Test Cases/TYCS/SauceDemo/TC-SD-3-LoginInvalido: Test Cases/TYCS/SauceDemo/TC-SD-3-LoginInvalido FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: keys for class: Script1699908208773
+	at TC-SD-3-LoginInvalido.run(TC-SD-3-LoginInvalido:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1699912996986.run(TempTestSuite1699912996986.groovy:36)
+
+
+2023-11-13 19:09:19 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-11-13 19:09:19 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-11-13 19:09:20 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-11-13 19:09:20 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-11-13 19:09:29 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-11-13 19:09:29 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://www.saucedemo.com/' successfully
+
+2023-11-13 19:09:32 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+2023-11-13 19:09:32 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Swag Labs/input_Swag Labs_user-name"), USUARIO): Text 'locked_out_user' is set on object 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name'
+
+2023-11-13 19:09:35 - [MESSAGE][PASSED] - Text 'locked_out_user' is set on object 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name'
+
+2023-11-13 19:09:35 - [TEST_STEP][ERROR] - sendKeys("Object Repository/Page_Swag Labs/input_Swag Labs_user-name", Keys.chord(BACK_SPACE)): Test Cases/TYCS/SauceDemo/TC-SD-3-LoginInvalido FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: keys for class: Script1699908208773
+	at TC-SD-3-LoginInvalido.run(TC-SD-3-LoginInvalido:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1699912996986.run(TempTestSuite1699912996986.groovy:36)
+
+
+2023-11-13 19:09:35 - [MESSAGE][ERROR] - Test Cases/TYCS/SauceDemo/TC-SD-3-LoginInvalido FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: keys for class: Script1699908208773
+	at TC-SD-3-LoginInvalido.run(TC-SD-3-LoginInvalido:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1699912996986.run(TempTestSuite1699912996986.groovy:36)]]></system-out>
+         <system-err><![CDATA[2023-11-13 19:09:19 - [TEST_CASE][ERROR] - Test Cases/TYCS/SauceDemo/TC-SD-3-LoginInvalido: Test Cases/TYCS/SauceDemo/TC-SD-3-LoginInvalido FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: keys for class: Script1699908208773
+	at TC-SD-3-LoginInvalido.run(TC-SD-3-LoginInvalido:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1699912996986.run(TempTestSuite1699912996986.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-11-13 19:03:37 - [TEST_SUITE][ERROR] - TS_TP4: Test Cases/TYCS/SauceDemo/TC-SD-3-LoginInvalido FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: USUARIO for class: Script1699908208773
+	at TC-SD-3-LoginInvalido.run(TC-SD-3-LoginInvalido:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1699912996986.run(TempTestSuite1699912996986.groovy:36)]]></system-out>
+      <system-err><![CDATA[2023-11-13 19:03:37 - [TEST_SUITE][ERROR] - TS_TP4: Test Cases/TYCS/SauceDemo/TC-SD-3-LoginInvalido FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: USUARIO for class: Script1699908208773
+	at TC-SD-3-LoginInvalido.run(TC-SD-3-LoginInvalido:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1699912996986.run(TempTestSuite1699912996986.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

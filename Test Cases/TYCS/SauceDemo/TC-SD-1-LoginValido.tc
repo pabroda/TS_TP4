@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC-SD-1-LoginValido</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b91c3ebb-634c-42d1-a245-8c82a44c2e35</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>0a8121c7-08de-461a-991c-3cb644e77de9</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e2c22069-e67c-43ff-9253-beedff2b41c2</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'standard_user'</defaultValue>
+      <description></description>
+      <id>0a8121c7-08de-461a-991c-3cb644e77de9</id>
+      <masked>false</masked>
+      <name>USUARIO</name>
+   </variable>
+   <variable>
+      <defaultValue>'secret_sauce'</defaultValue>
+      <description></description>
+      <id>e2c22069-e67c-43ff-9253-beedff2b41c2</id>
+      <masked>false</masked>
+      <name>PASSWORD</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,61 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_TP4,Chrome 119.0.0.0,,,2023-11-13 19:03:37,2023-11-13 19:09:35,"5m - 57,939s",ERROR
+,,,,,,,
+Test Cases/TYCS/SauceDemo/TC-SD-1-LoginValido,Chrome 119.0.0.0,,,2023-11-13 19:03:39,2023-11-13 19:04:16,"37,151s",PASSED
+"openBrowser("""")",Chrome 119.0.0.0,,,2023-11-13 19:03:43,2023-11-13 19:03:59,"16,462s",PASSED
+navigateToUrl(url),Chrome 119.0.0.0,,,2023-11-13 19:03:59,2023-11-13 19:04:03,"3,752s",PASSED
+"setText(findTestObject(""Object Repository/Page_Swag Labs/input_Swag Labs_user-name""), USUARIO)",Chrome 119.0.0.0,,,2023-11-13 19:04:03,2023-11-13 19:04:07,"3,737s",PASSED
+"setText(findTestObject(""Object Repository/Page_Swag Labs/input_Swag Labs_password""), PASSWORD)",Chrome 119.0.0.0,,,2023-11-13 19:04:07,2023-11-13 19:04:09,"2,485s",PASSED
+"click(findTestObject(""Object Repository/Page_Swag Labs/input_Swag Labs_login-button""))",Chrome 119.0.0.0,,,2023-11-13 19:04:09,2023-11-13 19:04:11,"1,831s",PASSED
+"verifyTextPresent(""Products"", false, STOP_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-13 19:04:11,2023-11-13 19:04:12,"1,039s",PASSED
+"takeScreenshot(""C:\Users\Usuario\Documents\Facultad\screen1.png"")",Chrome 119.0.0.0,,,2023-11-13 19:04:12,2023-11-13 19:04:13,"0,692s",PASSED
+delay(2),Chrome 119.0.0.0,,,2023-11-13 19:04:13,2023-11-13 19:04:15,"2,221s",PASSED
+closeBrowser(),Chrome 119.0.0.0,,,2023-11-13 19:04:15,2023-11-13 19:04:16,"1,512s",PASSED
+,,,,,,,
+Test Cases/TYCS/SauceDemo/TC-SD-2-A-LoginInvalidoPresionandoEnElBotónLoginConSoloCampoUsuarioCompletado,Chrome 119.0.0.0,,,2023-11-13 19:04:17,2023-11-13 19:04:39,"22,891s",PASSED
+"openBrowser("""")",Chrome 119.0.0.0,,,2023-11-13 19:04:19,2023-11-13 19:04:27,"8,072s",PASSED
+navigateToUrl(url),Chrome 119.0.0.0,,,2023-11-13 19:04:27,2023-11-13 19:04:31,"3,456s",PASSED
+"setText(findTestObject(""Page_Swag Labs/input_Swag Labs_password""), PASSWORD)",Chrome 119.0.0.0,,,2023-11-13 19:04:31,2023-11-13 19:04:34,"2,883s",PASSED
+"click(findTestObject(""Object Repository/Page_Swag Labs/input_Swag Labs_login-button""), STOP_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-13 19:04:34,2023-11-13 19:04:35,"1,055s",PASSED
+"verifyTextPresent(""Epic sadface: Username is required"", false)",Chrome 119.0.0.0,,,2023-11-13 19:04:35,2023-11-13 19:04:35,"0,864s",PASSED
+"takeScreenshot(""C:\Users\Usuario\Documents\Facultad\screen2A.png"")",Chrome 119.0.0.0,,,2023-11-13 19:04:35,2023-11-13 19:04:36,"0,677s",PASSED
+delay(2),Chrome 119.0.0.0,,,2023-11-13 19:04:36,2023-11-13 19:04:38,"2,037s",PASSED
+closeBrowser(),Chrome 119.0.0.0,,,2023-11-13 19:04:38,2023-11-13 19:04:39,"1,220s",PASSED
+,,,,,,,
+Test Cases/TYCS/SauceDemo/TC-SD-2-B-LoginInvalidoPresionandoEnElBotónLoginConSoloCampoPasswordCompletado,Chrome 119.0.0.0,,,2023-11-13 19:04:39,2023-11-13 19:05:01,"21,395s",PASSED
+"openBrowser("""")",Chrome 119.0.0.0,,,2023-11-13 19:04:41,2023-11-13 19:04:49,"7,263s",PASSED
+navigateToUrl(url),Chrome 119.0.0.0,,,2023-11-13 19:04:49,2023-11-13 19:04:51,"2,234s",PASSED
+"setText(findTestObject(""Object Repository/Page_Swag Labs/input_Swag Labs_user-name""), USUARIO)",Chrome 119.0.0.0,,,2023-11-13 19:04:51,2023-11-13 19:04:54,"3,087s",PASSED
+"click(findTestObject(""Object Repository/Page_Swag Labs/input_Swag Labs_login-button""), STOP_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-13 19:04:54,2023-11-13 19:04:55,"1,304s",PASSED
+"verifyTextPresent(""Epic sadface: Password is required"", false)",Chrome 119.0.0.0,,,2023-11-13 19:04:55,2023-11-13 19:04:56,"0,773s",PASSED
+"takeScreenshot(""C:\Users\Usuario\Documents\Facultad\screen2B.png"")",Chrome 119.0.0.0,,,2023-11-13 19:04:56,2023-11-13 19:04:57,"0,703s",PASSED
+delay(2),Chrome 119.0.0.0,,,2023-11-13 19:04:57,2023-11-13 19:04:59,"2,046s",PASSED
+closeBrowser(),Chrome 119.0.0.0,,,2023-11-13 19:04:59,2023-11-13 19:05:01,"2,134s",PASSED
+,,,,,,,
+Test Cases/TYCS/SauceDemo/TC-SD-3-LoginInvalido,Chrome 119.0.0.0,,,2023-11-13 19:05:41,2023-11-13 19:05:53,"12,606s",ERROR
+"openBrowser("""")",Chrome 119.0.0.0,,,2023-11-13 19:05:42,2023-11-13 19:05:50,"8,273s",PASSED
+navigateToUrl(url),Chrome 119.0.0.0,,,2023-11-13 19:05:50,2023-11-13 19:05:52,"1,912s",PASSED
+"setText(findTestObject(""Object Repository/Page_Swag Labs/input_Swag Labs_user-name""), USUARIO)",Chrome 119.0.0.0,,,2023-11-13 19:05:52,2023-11-13 19:05:53,"1,657s",ERROR
+,,,,,,,
+Test Cases/TYCS/SauceDemo/TC-SD-3-LoginInvalido,Chrome 119.0.0.0,,,2023-11-13 19:06:36,2023-11-13 19:06:50,"14,091s",ERROR
+"openBrowser("""")",Chrome 119.0.0.0,,,2023-11-13 19:06:36,2023-11-13 19:06:45,"9,057s",PASSED
+navigateToUrl(url),Chrome 119.0.0.0,,,2023-11-13 19:06:45,2023-11-13 19:06:47,"1,936s",PASSED
+"setText(findTestObject(""Object Repository/Page_Swag Labs/input_Swag Labs_user-name""), USUARIO)",Chrome 119.0.0.0,,,2023-11-13 19:06:47,2023-11-13 19:06:50,"2,878s",PASSED
+"sendKeys(""Object Repository/Page_Swag Labs/input_Swag Labs_user-name"", Keys.chord(BACK_SPACE))",Chrome 119.0.0.0,,,2023-11-13 19:06:50,2023-11-13 19:06:50,"0,004s",ERROR
+,,,,,,,
+Test Cases/TYCS/SauceDemo/TC-SD-3-LoginInvalido,Chrome 119.0.0.0,,,2023-11-13 19:07:28,2023-11-13 19:07:40,"11,946s",ERROR
+"openBrowser("""")",Chrome 119.0.0.0,,,2023-11-13 19:07:29,2023-11-13 19:07:37,"8,261s",PASSED
+navigateToUrl(url),Chrome 119.0.0.0,,,2023-11-13 19:07:37,2023-11-13 19:07:39,"2,412s",PASSED
+"setText(findTestObject(""Object Repository/Page_Swag Labs/input_Swag Labs_user-name""), USUARIO)",Chrome 119.0.0.0,,,2023-11-13 19:07:39,2023-11-13 19:07:40,"0,736s",ERROR
+,,,,,,,
+Test Cases/TYCS/SauceDemo/TC-SD-3-LoginInvalido,Chrome 119.0.0.0,,,2023-11-13 19:08:21,2023-11-13 19:08:36,"14,353s",ERROR
+"openBrowser("""")",Chrome 119.0.0.0,,,2023-11-13 19:08:21,2023-11-13 19:08:29,"7,646s",PASSED
+navigateToUrl(url),Chrome 119.0.0.0,,,2023-11-13 19:08:29,2023-11-13 19:08:32,"2,989s",PASSED
+"setText(findTestObject(""Object Repository/Page_Swag Labs/input_Swag Labs_user-name""), USUARIO)",Chrome 119.0.0.0,,,2023-11-13 19:08:32,2023-11-13 19:08:36,"3,647s",PASSED
+"sendKeys(""Object Repository/Page_Swag Labs/input_Swag Labs_user-name"", Keys.chord(BACK_SPACE))",Chrome 119.0.0.0,,,2023-11-13 19:08:36,2023-11-13 19:08:36,"0,000s",ERROR
+,,,,,,,
+Test Cases/TYCS/SauceDemo/TC-SD-3-LoginInvalido,Chrome 119.0.0.0,,,2023-11-13 19:09:19,2023-11-13 19:09:35,"16,332s",ERROR
+"openBrowser("""")",Chrome 119.0.0.0,,,2023-11-13 19:09:19,2023-11-13 19:09:29,"9,746s",PASSED
+navigateToUrl(url),Chrome 119.0.0.0,,,2023-11-13 19:09:29,2023-11-13 19:09:32,"2,956s",PASSED
+"setText(findTestObject(""Object Repository/Page_Swag Labs/input_Swag Labs_user-name""), USUARIO)",Chrome 119.0.0.0,,,2023-11-13 19:09:32,2023-11-13 19:09:35,"3,573s",PASSED
+"sendKeys(""Object Repository/Page_Swag Labs/input_Swag Labs_user-name"", Keys.chord(BACK_SPACE))",Chrome 119.0.0.0,,,2023-11-13 19:09:35,2023-11-13 19:09:35,"0,005s",ERROR

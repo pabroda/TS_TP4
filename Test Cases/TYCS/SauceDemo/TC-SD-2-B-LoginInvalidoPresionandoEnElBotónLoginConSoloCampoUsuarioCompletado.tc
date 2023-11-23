@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC-SD-2-B-LoginInvalidoPresionandoEnElBotónLoginConSoloCampoUsuarioCompletado</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c4ceb157-203a-4017-8509-b94714be4486</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>de877cd0-ffa3-4783-89cb-41e0945bece5</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'standard_user'</defaultValue>
+      <description></description>
+      <id>de877cd0-ffa3-4783-89cb-41e0945bece5</id>
+      <masked>false</masked>
+      <name>USUARIO</name>
+   </variable>
+</TestCaseEntity>
