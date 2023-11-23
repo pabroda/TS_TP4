@@ -6,18 +6,37 @@
    <connectionProperties/>
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
-   <dataFileGUID>5a3be19c-0edd-4915-bab1-6df61b4e6a50</dataFileGUID>
-   <dataSourceUrl>C:\Users\Usuario\Documents\Facultad\DF_SauceDemo.xlsx</dataSourceUrl>
-   <driver>ExcelFile</driver>
+   <dataFileGUID>5db4c01e-28bd-43ed-b107-00a39c30d3ad</dataFileGUID>
+   <dataSourceUrl></dataSourceUrl>
+   <driver>InternalData</driver>
+   <data>null null Epic+sadface%3A+Username+is+required C%3A%5C%5CUsers%5C%5CUsuario%5C%5CDocuments%5C%5CFacultad%5C%5Cscreen3A.png</data>
+   <data>prueba null Epic+sadface%3A+Password+is+required C%3A%5C%5CUsers%5C%5CUsuario%5C%5CDocuments%5C%5CFacultad%5C%5Cscreen3B.png</data>
+   <data>null prueba Epic+sadface%3A+Username+is+required C%3A%5C%5CUsers%5C%5CUsuario%5C%5CDocuments%5C%5CFacultad%5C%5Cscreen3C.png</data>
+   <data>standard_user prueba Epic+sadface%3A+Username+and+password+do+not+match+any+user+in+this+service C%3A%5C%5CUsers%5C%5CUsuario%5C%5CDocuments%5C%5CFacultad%5C%5Cscreen3D.png</data>
+   <data>locked_out_user secret_sauce Epic+sadface%3A+Sorry%2C+this+user+has+been+locked+out. C%3A%5C%5CUsers%5C%5CUsuario%5C%5CDocuments%5C%5CFacultad%5C%5Cscreen3E.png</data>
+   <internalDataColumns>
+      <columnIndex>0</columnIndex>
+      <name>USUARIO</name>
+      <size>5</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>1</columnIndex>
+      <name>CLAVE</name>
+      <size>5</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>2</columnIndex>
+      <name>MENSAJE</name>
+      <size>5</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>3</columnIndex>
+      <name>ARCHIVO</name>
+      <size>5</size>
+   </internalDataColumns>
    <isInternalPath>false</isInternalPath>
-   <properties>
-      <entry>
-         <key>readAsString</key>
-         <value>true</value>
-      </entry>
-   </properties>
    <query></query>
    <secureUserAccount>false</secureUserAccount>
-   <sheetName>Hoja1</sheetName>
+   <sheetName></sheetName>
    <usingGlobalDBSetting>false</usingGlobalDBSetting>
 </DataFileEntity>

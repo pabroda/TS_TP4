@@ -10,9 +10,9 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>true</rerunImmediately>
-   <testSuiteGuid>f14c452c-de4e-4783-a541-ec29b9c7a271</testSuiteGuid>
+   <testSuiteGuid>a271c6a3-1677-4917-8858-469c9fc9a68d</testSuiteGuid>
    <testCaseLink>
-      <guid>0ec2b6eb-0657-41b2-8977-f14b27634f3a</guid>
+      <guid>a637cdd9-c812-4966-9e99-5511ecf423dd</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/TYCS/SauceDemo/TC-SD-1-LoginValido</testCaseId>
@@ -31,7 +31,7 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>e3d7b181-f920-4a78-9d12-b868d6817097</guid>
+      <guid>b90ad915-965c-42f1-bc4e-4e37a113d68c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/TYCS/SauceDemo/TC-SD-2-A-LoginInvalidoPresionandoEnElBotónLoginConSoloCampoPasswordCompletado</testCaseId>
@@ -44,7 +44,7 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>24bfd97e-4754-4566-8eaf-212c65a39637</guid>
+      <guid>ef331a52-6413-4dad-be0e-caa921390ecb</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/TYCS/SauceDemo/TC-SD-2-B-LoginInvalidoPresionandoEnElBotónLoginConSoloCampoUsuarioCompletado</testCaseId>
@@ -57,42 +57,33 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>177d1d19-d84b-4dd6-8cb9-23135e0c6ccf</guid>
+      <guid>201461a6-0a43-455b-b65c-49a0ff568d02</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/TYCS/SauceDemo/TC-SD-3-LoginInvalido</testCaseId>
-      <testDataLink>
-         <combinationType>ONE</combinationType>
-         <id>f2819c74-0011-4acb-b75e-effdcf8e47f9</id>
-         <iterationEntity>
-            <iterationType>ALL</iterationType>
-            <value></value>
-         </iterationEntity>
-         <testDataId>Data Files/DF_SauceDemo</testDataId>
-      </testDataLink>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
-         <testDataLinkId>f2819c74-0011-4acb-b75e-effdcf8e47f9</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>USUARIO</value>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
          <variableId>99aa36de-07a2-400a-a758-f5cf10e1ae1e</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>f2819c74-0011-4acb-b75e-effdcf8e47f9</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>CLAVE</value>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
          <variableId>416beb96-3978-48bb-a0b2-855812f582ed</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>f2819c74-0011-4acb-b75e-effdcf8e47f9</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>MENSAJE</value>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
          <variableId>16c11d91-4734-48f1-aed6-1537ef264dec</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>f2819c74-0011-4acb-b75e-effdcf8e47f9</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>ARCHIVO</value>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
          <variableId>d1a039ea-7321-44a4-9cdb-a520af23d5b1</variableId>
       </variableLink>
    </testCaseLink>
